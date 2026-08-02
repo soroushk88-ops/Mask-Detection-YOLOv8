@@ -1,0 +1,11 @@
+# Core inference stack.
+# ultralytics pulls in torch, torchvision, opencv, numpy automatically,
+# so we don't need to list those separately — but we pin ultralytics itself
+# so the behaviour never changes underneath us.
+ultralytics==8.3.40
+pillow==10.4.0
+
+# Web API layer (used in the next step).
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9

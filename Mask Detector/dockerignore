@@ -1,0 +1,21 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (we install fresh inside the image)
+.venv/
+venv/
+
+# Editor / IDE and git metadata
+.vscode/
+.git/
+.gitignore
+
+# Local test images and docs — not needed inside the running service
+sample_images/
+*.md
+
+# Any stray training artifacts or datasets that might sit nearby
+runs/
+*.zip
